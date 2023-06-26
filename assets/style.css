@@ -1,0 +1,161 @@
+/* Fone size and line height */
+body {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3;
+}
+/*Header*/ 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #13293d;
+  color: #fff;
+}
+h1 {
+  font-size: 200%;
+}
+
+h2 {
+  margin: 2% 0;
+  font-size: 250%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  min-width: 300px;
+  list-style: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav a {
+  color: #f8faf7;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #3500f5;
+}
+/*portfolio-picture*/
+.porfolio-picture {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.porfolio-picture img {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+}
+/*text margin for main content*/
+.text {
+  margin-left: 220px;
+  margin-top: -60px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+.text1 {
+  margin-left: 240px;
+  margin-top: -68px;  
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+}
+.content {
+  padding-right: 15px;
+  padding-left: 8px;
+  background-color: #13293d;
+  color: #fff;
+  }
+  .aligned-text {
+    text-align: justify;
+  }
+
+/*text link hover*/
+.hover-link {
+  color: #3500f5;
+  transition: color 0.3s;
+}
+
+.hover-link:hover {
+  color: red;
+}
+
+/*Style to gallery1*/
+.gallery1 {
+  display: flex;
+  padding: 5px;
+  width: 80%;
+  margin-left: 220px;
+  margin-top: -60px;
+}
+
+.gallery1 img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+/* gallery1 hover*/
+.gallery1 img{
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery1 img{
+  width: 80%;
+  height: auto;
+  transition: opacity 0.3s;
+}
+
+.gallery1 img:hover{
+  opacity: .5;
+}
+
+/*style to gallery2*/
+.gallery2 {
+  display: flex;
+  align-items: center;
+  margin-left: 220px;
+  margin-top: 40px;
+}
+
+.gallery2 img {
+  width: 70%;
+  height: auto;
+  cursor: pointer;
+  align-items: center;
+}
+
+/* gallery2 hover*/
+.gallery2 img{
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery2 img{
+  width: 70%;
+  height: auto;
+  transition: opacity 0.3s;
+}
+
+.gallery2 img:hover{
+  opacity: .5;
+}
+
+/*Footer*/
+.footer {
+  padding: 30px;
+  clear: both;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+}
+
+.footer {
+  font-size: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*background and font color for about me and contact me section*/
